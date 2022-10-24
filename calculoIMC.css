@@ -1,0 +1,30 @@
+.body {
+  text-align: center;
+
+}
+
+.div-inputs {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 20px;
+
+}
+
+.input {
+  font-size: 20px;
+  border: solid 2px darkblue;
+  border-radius: 7px;
+}
+
+.button {
+  font-size: 17px;
+
+}
+
+.resultado {
+  font-size: 30px;
+  color: darkblue;
+}
