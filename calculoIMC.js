@@ -14,9 +14,9 @@ function calcularIMC() {
   } else {
     imcResult = "obesidade grave";
   }
-  document.getElementById("resultado").innerHTML = "Seu IMC é: " + imc;
-  document.getElementById("descricaoResultado").innerHTML = "Seu IMC indica que " +
-    "seu peso está " + imcResult;
+  document.getElementById("resultado").innerHTML = "Seu IMC é: " + parseFloat(imc.toFixed(2));
+  document.getElementById("descricaoResultado").innerHTML = "Seu IMC indica  " +
+    imcResult;
 }
 
 function limpar() {
